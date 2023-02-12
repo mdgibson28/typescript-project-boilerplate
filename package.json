@@ -1,6 +1,6 @@
 {
   "name": "typescript-project-boilerplate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Typescript Project boilerplate",
   "keywords": [
     "typescript",
@@ -55,7 +55,7 @@
     "test:unit": "jest",
     "test:unit:silent": "jest --silent --no-coverage --bail",
     "test:lint": "eslint ./src/index.ts",
-    "test:lint:silent": "eslint ./src/index.ts --quiet", 
+    "test:lint:silent": "eslint ./src/index.ts --quiet",
     "publish": "npm publish",
     "publish:public": "npm publish --access public",
     "publish:patch": "npm run publish:pre && npm version patch && npm run publish && npm run publish:post",
