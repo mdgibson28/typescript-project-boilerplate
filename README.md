@@ -2,10 +2,10 @@
 
 A start project for building libraries in Typescript.
 
-- bundles with Rollup
-- lint with EsLint
-- unit testing with Jest
-- documentation generation with Typedoc
+- Bundles with Rollup
+- Lint with EsLint
+- Unit testing with Jest
+- Documentation generation with Typedoc
 
 
 ## Install dependencies
