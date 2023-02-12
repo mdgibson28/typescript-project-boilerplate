@@ -39,9 +39,10 @@
   "scripts": {
     "bundle": "rollup -c",
     "bundle:pre": "npm run test && npm run clean",
-    "bundle:post": "npx typedoc src/index.ts",
+    "bundle:post": "npm run docs",
     "build": "npm run bundle:pre && npm run bundle && npm run bundle:post",
     "clean": "rimraf dist && rimraf docs",
+    "docs": "npx typedoc src/index.ts",
     "test": "npm run test:lint && npm run test:unit",
     "test:unit": "jest",
     "test:lint": "eslint ./src/index.ts",
