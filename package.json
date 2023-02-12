@@ -53,11 +53,11 @@
     "test": "npm run test:lint && npm run test:unit",
     "test:unit": "jest",
     "test:lint": "eslint ./src/index.ts",
-    "publish": "npm pack",
+    "publish": "npm publish",
+    "publish:public": "npm publish --access public",
     "publish:patch": "npm run publish:pre && npm version patch && npm run publish && npm run publish:post",
     "publish:pre": "npm run build",
-    "publish:post": "echo Congratulations! Your package has been published. The world is a better place.",
-    "publish:public": "npm publish --access public"
+    "publish:post": "echo Congratulations! Your package has been published. The world is a better place."
   },
   "repository": {
     "type": "git",
