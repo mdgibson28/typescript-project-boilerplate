@@ -1,7 +1,15 @@
 {
-  "name": "typescript-sdk-boilerplate",
-  "version": "0.0.2",
-  "description": "",
+  "name": "typescript-project-boilerplate",
+  "version": "0.0.0",
+  "description": "Typescript Project boilerplate",
+  "keywords": [
+    "typescript",
+    "boilerplate",
+    "eslint",
+    "rollup",
+    "jest",
+    "typedoc"
+  ],
   "source": "src/index.ts",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -54,12 +62,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdgibson28/typescript-sdk-boilerplate.git"
+    "url": "git+https://github.com/mdgibson28/typescript-project-boilerplate.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mdgibson28/typescript-sdk-boilerplate/issues"
+    "url": "https://github.com/mdgibson28/typescript-project-boilerplate/issues"
   },
-  "homepage": "https://github.com/mdgibson28/typescript-sdk-boilerplate#readme"
+  "homepage": "https://github.com/mdgibson28/typescript-project-boilerplate/issues#readme"
 }
