@@ -56,7 +56,7 @@
     "test:unit:silent": "jest --silent --no-coverage --bail",
     "test:lint": "eslint ./src/index.ts",
     "test:lint:silent": "eslint ./src/index.ts --quiet",
-    "publish": "npm publish",
+    "publish": "npm pack",
     "publish:public": "npm publish --access public",
     "publish:patch": "npm run publish:pre && npm version patch && npm run publish && npm run publish:post",
     "publish:minor": "npm run publish:pre && npm version minor && npm run publish && npm run publish:post",
